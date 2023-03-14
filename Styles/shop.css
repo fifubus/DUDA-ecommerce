@@ -1,0 +1,98 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#body{
+    background-color: #1e012c;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/*--------------NAVBAR--------------*/
+
+#navbarTop{
+    padding: 0;
+    margin: 0;
+}
+
+#navbar{
+    background-color:#6f00ca
+}
+
+#titleNav:hover{
+    color: white;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: end;
+}
+
+#link1{
+    color: #000;
+    padding-right: 15px;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
+
+#link1:hover{
+    color: #fff;
+}
+
+#link2{
+    color: #000;
+    text-decoration: none;
+}
+
+#link2:hover{
+    color: #fff;
+}
+
+#ul{
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/*--------------CONTENT-------------*/
+
+.btnBuy{
+    border: none;
+}
+
+.col{
+    padding: 10px;
+}
+
+#pantsImg{
+    height: 286px;
+}
+
+/*------------CART-------------*/
+
+.prodImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#colProduct{
+    height: 100px;
+}
+
+#colPrice{
+    height: 100px;
+}
+
+/*-----------FOOTER------------*/
+
+#footer{
+    background-color: #6f00ca;
+    align-items: center;
+}
